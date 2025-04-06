@@ -1,0 +1,39 @@
+# Backend .prettierignore
+
+# Dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+cdk.out/
+.aws-sam/
+
+# Coverage reports
+coverage/
+
+# Generated files
+package-lock.json
+yarn.lock
+tsconfig.tsbuildinfo
+
+# Serverless/CDK generated
+.serverless/
+.cdk.staging/
+
+# Configuration files that should maintain specific formatting
+*.min.js
+*.d.ts
+
+# Large data files
+*.json.gz
+*.csv
+*.sql
+
+# Environment variables
+.env*
+!.env.example
+
+# Miscellaneous files
+.DS_Store
+*.log
